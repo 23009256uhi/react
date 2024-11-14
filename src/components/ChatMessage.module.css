@@ -1,0 +1,18 @@
+.chatMessageDiv {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.logoIcon {
+  width: 30px;
+  height: 30px;
+  filter: invert(98%) sepia(2%) saturate(285%) hue-rotate(200deg)
+    brightness(94%) contrast(96%);
+}
+
+.message {
+  background-color: var(--message-cl);
+  padding: var(--chat-pd);
+  border-radius: var(--chat-radius);
+}

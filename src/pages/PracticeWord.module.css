@@ -1,0 +1,143 @@
+.practiceDiv {
+  padding: var(--content-pd);
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.speechContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.wordTitle {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.word {
+  color: #007bff;
+  font-size: 28px;
+}
+
+.phonetic {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions strong {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.highlight {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.instructionDetails {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #555;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.tryButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.tryButton:hover {
+  background-color: #218838;
+}
+
+.recordingButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.recordingButton:hover {
+  background-color: #c82333;
+}
+
+.feedbackContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.feedback {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.success {
+  color: #28a745;
+}
+
+.error {
+  color: #dc3545;
+}
+
+.input-div {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 830px) {
+  .practiceDiv {
+    padding: var(--mobile-pd);
+  }
+}

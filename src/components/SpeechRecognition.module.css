@@ -1,0 +1,45 @@
+.speechContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 768px;
+  width: 100%;
+  position: relative;
+}
+
+.chatDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 1.6rem 2.8rem;
+  font-size: 1.8rem;
+  border-radius: 200px;
+  border: 1px solid black;
+  background-color: var(--input-cl);
+  color: var(--text-cl);
+}
+
+.input:focus {
+  outline: none;
+}
+
+@media (max-width: 490px) {
+  .chatHeader {
+    text-align: center;
+  }
+}

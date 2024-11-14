@@ -1,0 +1,99 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* VARIABLES */
+:root {
+  /* FONT SIZES */
+  --h1-font-size: 3.4rem;
+  --h2-font-size: 3rem;
+  --h3-font-size: 2.4rem;
+  --p-font-size: 1.6rem;
+  --btn-font-size: 1.6rem;
+  --a-font-size: 1.6rem;
+
+  /* COLOURS */
+  --main-bg: #181530;
+  --navbar-bg: #0b0b17;
+  --text-cl: #e8e8ec;
+  --input-cl: #2f2c45;
+  --message-cl: #6d6b7d;
+  --btn-cl: #2f2c45;
+  --hover-btn-cl: #6d6b7d;
+
+  /* PADDINGS */
+  --content-pd: 4rem 2rem;
+  --navbar-pd: 4rem 0 4rem 4rem;
+  --btn-pd: 0.6rem 2.4rem;
+  --chat-pd: 1.6rem 2.4rem;
+  --mobile-pd: 6rem;
+
+  /* BORDER RADIUS */
+  --btn-radius: 8px;
+  --chat-radius: 20px;
+}
+
+a,
+h1,
+h3,
+h4,
+p {
+  color: var(--text-cl);
+}
+
+a {
+  font-size: var(--a-font-size);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+p {
+  font-size: var(--p-font-size);
+}
+
+body {
+  background-color: var(--main-bg);
+}
+
+button {
+  border-radius: var(--btn-radius);
+  padding: var(--btn-pd);
+  font-size: var(--btn-font-size);
+  cursor: pointer;
+  transition: 0.25s;
+  border: none;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  max-width: 768px;
+  padding: 1.6rem 2.8rem;
+  font-size: 1.8rem;
+  border-radius: 200px;
+  border: 1px solid black;
+  background-color: var(--input-cl);
+  color: var(--text-cl);
+}

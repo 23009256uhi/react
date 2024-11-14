@@ -1,0 +1,11 @@
+.chatMessageDiv {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.message {
+  background-color: var(--input-cl);
+  padding: var(--chat-pd);
+  border-radius: var(--chat-radius);
+}

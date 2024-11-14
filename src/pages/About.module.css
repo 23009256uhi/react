@@ -1,0 +1,27 @@
+.container {
+  padding: 5rem 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: var(--h1-font-size);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--text-cl);
+}
+
+.paragraph {
+  font-size: var(--p-font-size);
+  line-height: 1.6;
+  color: var(--text-cl);
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 830px) {
+  .container {
+    padding: var(--mobile-pd);
+  }
+}

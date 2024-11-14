@@ -1,0 +1,66 @@
+.navbar {
+  background-color: var(--navbar-bg);
+  height: 100%;
+  padding: var(--navbar-pd);
+  width: 300px;
+}
+
+.sticky {
+  position: sticky;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.logoIcon {
+  width: 50px;
+  height: 50px;
+  filter: invert(98%) sepia(2%) saturate(285%) hue-rotate(200deg)
+    brightness(94%) contrast(96%);
+}
+
+span,
+.link {
+  color: var(--text-cl);
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.closeButton {
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-cl);
+  display: none;
+}
+
+@media (max-width: 830px) {
+  .closeButton {
+    display: block;
+  }
+}

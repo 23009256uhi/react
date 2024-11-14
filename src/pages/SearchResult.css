@@ -1,0 +1,54 @@
+.results-div {
+  padding: var(--content-pd);
+}
+
+.word-button {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.word-header {
+  font-size: 6rem;
+}
+
+.btn {
+  background-color: var(--btn-cl);
+  color: var(--text-cl);
+}
+
+.btn:hover {
+  background-color: var(--hover-btn-cl);
+  outline: none;
+}
+
+.phonetic {
+  font-size: 2.6rem;
+}
+
+.definitions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.part-of-speech {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+  font-style: italic;
+}
+
+.definition-div {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.index-span {
+  max-width: 2.8rem;
+  width: 100%;
+  font-size: 1.8rem;
+}
+
+.definition {
+  font-size: 1.8rem;
+}
